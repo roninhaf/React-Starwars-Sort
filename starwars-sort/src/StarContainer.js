@@ -75,9 +75,9 @@ class StarContainer extends Component {
                         <div className='card' key={a.created}>
                             <h1>{a.name}</h1>
                             <ul>
-                                <li key={a.created}>Height: {a.height}cm</li>
-                                <li key={a.edited}>Mass: {a.mass}kgs</li>
-                                <li key={a.url}>Appears in {a.films.length} movies</li>
+                                <li>Height: {a.height}cm</li>
+                                <li>Mass: {a.mass}kgs</li>
+                                <li>Appears in {a.films.length} movies</li>
                             </ul>
                         </div>            
                     )}
